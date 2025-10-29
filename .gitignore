@@ -41,3 +41,4 @@ temp/
 .env
 .env.local
 
+setup-github.sh

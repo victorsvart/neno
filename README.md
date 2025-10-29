@@ -16,7 +16,7 @@
 
 ## 🚀 Quick Start
 
-### Installation
+### For Users - Installation
 
 **One-line install (from Git):**
 ```bash
@@ -108,6 +108,27 @@ The `neno list` command provides an interactive interface:
 
 ## 🛠️ Development
 
+### For Developers - Publishing to GitHub
+
+If you're forking or contributing to NENO:
+
+```bash
+# Automated GitHub setup and release
+./setup-github.sh
+```
+
+This interactive script handles:
+- ✅ Git initialization
+- ✅ Remote setup (SSH or HTTPS)
+- ✅ Building and testing
+- ✅ Committing and pushing
+- ✅ Creating releases and tags
+- ✅ Version management
+
+See [GITHUB_SETUP.md](GITHUB_SETUP.md) for detailed instructions.
+
+### Build Commands
+
 ```bash
 # Build
 make build
@@ -174,6 +195,19 @@ Contributions are welcome! Feel free to:
 - Report bugs
 - Suggest features
 - Submit pull requests
+
+### Quick Contribution Guide
+
+1. Fork the repository
+2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/neno.git`
+3. Create a branch: `git checkout -b feature-name`
+4. Make your changes
+5. Test: `go build && ./neno --help`
+6. Commit: `git commit -m "Add feature"`
+7. Push: `git push origin feature-name`
+8. Open a Pull Request
+
+See [GITHUB_SETUP.md](GITHUB_SETUP.md) for more details on the development workflow.
 
 ## 📄 License
 
