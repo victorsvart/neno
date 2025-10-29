@@ -222,8 +222,3 @@ Built with:
 - [Lipgloss](https://github.com/charmbracelet/lipgloss) - Terminal styling
 
 ---
-
-<p align="center">
-  Made with ❤️ for note-takers everywhere
-</p>
-
